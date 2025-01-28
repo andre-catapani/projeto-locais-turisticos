@@ -49,16 +49,77 @@ p {
     font-size: 16px;
 }
 
-img {
-    object-fit: cover;
-    width: 100%;
-}
-
 .spot-images {
     border-radius: 28px;
+    object-fit: cover;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 .spots-list {
     margin: 0;
     padding: 0;
 }
+
+#busan-image {
+    margin-bottom: 24px;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    margin: 40px 0 40px;
+    background-color: #d9d9d9;
+}
+
+#headline2 {
+    padding-top: 24px;
+    margin-bottom: 2px;
+}
+
+#turist-spots-general-description {
+    margin-top: 8px;
+    margin-bottom: 64px;
+}
+
+ol > div > li::marker {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.good-for-list {
+    margin-bottom: 48px;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.good-for-list > li {
+    margin-left: -35px;
+}
+
+.spots-list-div {
+    margin-left: 42px;
+}
+
+.spot-description {
+    margin-left: -40px;
+}
+
+#conclusion-section {
+    margin-bottom: 65px;
+}
+
+#footer {
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+#conclusion-text {
+    text-align: center;
+}
+
+footer img {
+    vertical-align: middle;
+}
+
+
